@@ -1,0 +1,30 @@
+<header>
+    <h1>Tareas</h1>
+</header>
+<section class="todoapp">
+    <header class="header">
+        <input id="new-todo-input" class="new-todo" placeholder="¿Qué Necesita Hacer?" autofocus>
+    </header>
+    
+    <!-- This section should be hidden by default and shown when there are todos -->
+    <section class="main">
+        <!-- <input id="toggle-all" class="toggle-all" type="checkbox">
+        <label for="toggle-all">Mark all as complete</label> -->
+        <ul class="todo-list"></ul>
+    </section>
+    <footer class="footer">
+        <span class="todo-count"><strong id="pending-count">0</strong> pendiente(s)</span>
+        <ul class="filters">
+            <li>
+                <a class="filtro"href="#/">Todos</a>
+            </li>
+            <li>
+                <a class="filtro" href="#/active">Pendientes</a>
+            </li>
+            <li>
+                <a class="filtro" href="#/completed">Completados</a>
+            </li>
+        </ul>
+        <button class="clear-completed">Borrar completados</button>
+    </footer>
+</section>
